@@ -1,0 +1,12 @@
+{
+  "slug": "ta-associates",
+  "name": "TA Associates",
+  "website": "https://ta.com",
+  "hq": "Boston, MA",
+  "overview": "Long-established growth-equity / minority-buyout firm with significant tech and tech-enabled services exposure alongside healthcare, financial services, and consumer. Known for sourcing-led model: large origination team that screens thousands of companies to surface bootstrapped, founder-led winners.",
+  "sectorFocus": ["software", "tech-enabled services", "healthcare", "financial services"],
+  "notable": [
+    "Origination-driven model with one of the largest dedicated outbound sourcing teams in PE"
+  ],
+  "bdNotes": "TA's model is the canonical 'BD as alpha' shop. Many BD Associates here move to investment-team roles after 1-3 years; structured career path."
+}

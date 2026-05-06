@@ -1,0 +1,12 @@
+{
+  "slug": "insight",
+  "name": "Insight Partners",
+  "website": "https://insightpartners.com",
+  "hq": "New York, NY",
+  "overview": "Tech-specialist firm operating across growth equity and buyout — historically one of the most active growth investors in software with a deep portfolio operations group ('Onsite').",
+  "sectorFocus": ["software", "internet", "data infrastructure", "cybersecurity"],
+  "notable": [
+    "Large in-house portfolio-services / 'Onsite' team that supports go-to-market scaling at portfolio companies"
+  ],
+  "bdNotes": "Sourcing is a structured, scaled function at Insight (large outbound team historically). A B2B sales-engineering background is on-thesis for both BD-Associate and Onsite-side roles."
+}

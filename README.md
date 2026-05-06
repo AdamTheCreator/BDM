@@ -8,50 +8,57 @@ research), and tutors with Claude.
 Architecturally modeled on Signal-Inference: Next.js 15 + Tailwind + Anthropic
 SDK + Vercel.
 
-## What's in this repo so far
+## Status
 
-This is the **Phase 0–2 skeleton** from the spec (see `SPEC.md`). What's wired:
-
-- Next.js 15 (App Router) + TypeScript + Tailwind
-- Anthropic SDK wrapper with streaming (`lib/anthropic.ts`)
-- `/api/chat` streaming tutor endpoint
-- Prompt templates for tutor / thesis / outbound / behavioral / technical / grader
-- 7 course manifests with the chapter structure from spec §2.1 + Appendix A
-- `/learn`, `/learn/[courseSlug]`, `/learn/[courseSlug]/[lessonSlug]` pages
-- `<TutorChat>` client component with streaming
-- Stub routes for practice / interviews / deals / firms / progress
-- `scripts/seed-courses.ts` — populate lessons from a WSP TOC text dump
-- `scripts/seed-videos.ts` — find + Claude-score YouTube videos per lesson
-- `scripts/refresh-deals.ts` — daily PE deal cron stub
-- `lib/types.ts` — full data model from spec §3.3
-- `lib/storage.ts` — localStorage progress adapter (KV swap-in later)
-
-## What still needs work (from the spec)
-
-| Phase | Item | Hours |
-|---|---|---|
-| 1 | Drop WSP TOCs into `scripts/wsp-toc/<slug>.txt` and run `npm run seed:courses` | 2 |
-| 2 | Get YOUTUBE_API_KEY, run `npm run seed:videos`, spot-check + manually fix bad picks | 6 |
-| 3 | Author lesson body MDX (438 lessons; can be incremental, night-before each lesson) | 20–30 |
-| 4 | Build practice modules (paper LBO, A/D, thesis builder, outbound) — full UI | 12–16 |
-| 4 | Build interview modules (behavioral, technical, case) — full UI + grading flow | included above |
-| 5 | Wire deal-news ingestion + Vercel Cron; hand-author 15 firm profiles | 8–12 |
-| 6 | Mastery scoring math, spaced repetition queue, progress dashboard, artifact gallery | 4–8 |
-
-Total realistic effort to v1-complete: 60–90 focused hours.
+| Area | Status |
+|---|---|
+| App skeleton + streaming Claude tutor | ✅ |
+| 7 course manifests (chapter-level) | ✅ |
+| Lesson seeding (per-lesson MDX with videos) | ⏳ needs WSP TOC text dumps + `YOUTUBE_API_KEY` |
+| Lesson body MDX authoring | ⏳ slow incremental phase |
+| Practice — paper LBO drill | ✅ |
+| Practice — accretion / dilution drill | ✅ |
+| Practice — thesis builder + Markdown export | ✅ |
+| Practice — outbound composer | ✅ |
+| Interviews — behavioral, technical, case | ✅ |
+| Firm directory (15 firms + refresh) | ✅ |
+| Deal feed | ✅ ingestion script; ⏳ runtime cron needs persistence layer |
+| Progress dashboard | ✅ |
 
 ## Local setup
 
 ```bash
-cp .env.example .env.local        # then fill in ANTHROPIC_API_KEY
+cp .env.example .env.local        # fill in ANTHROPIC_API_KEY
 npm install
 npm run dev
 ```
 
-## Deploy
+## Deal feed
 
-Push to a Vercel project pointed at this repo. Add env vars in the Vercel
-dashboard. No DB needed in v1 — progress lives in localStorage.
+`npm run refresh:deals` fetches RSS from PE Hub + Axios Pro Rata, asks Claude
+to extract acquirer / target / EV / multiple / thesis + 3 drill questions per
+deal, and writes JSON files into `content/deals/YYYY-MM-DD/`. Commit the new
+files to source control; `/deals/feed` reads them at request time.
+
+```bash
+ANTHROPIC_API_KEY=sk-ant-... npm run refresh:deals
+git add content/deals && git commit -m "Refresh deal feed"
+```
+
+**Vercel cron caveat.** Vercel's runtime filesystem is read-only, so a cron
+pointed at `/api/cron/refresh-deals` can't write back to `content/deals/`.
+To run the refresh from cron you need either Vercel KV / Blob for runtime
+persistence, or a GitHub-API push back to the repo so the next deploy picks
+up the new files. `vercel.json.example` shows the cron config; rename it to
+`vercel.json` once you've wired one of those persistence paths.
+
+## Phase 1–3 content pipeline
+
+| Step | Command | Inputs needed |
+|---|---|---|
+| Lesson seeding | `npm run seed:courses` | `scripts/wsp-toc/<slug>.txt` per course (one line per lesson: `Chapter Title \| Lesson Title \| mm:ss`) |
+| Video population | `npm run seed:videos` | `YOUTUBE_API_KEY` (Google Cloud, free tier) |
+| Lesson body MDX | hand-authored, incrementally | the night before each lesson |
 
 ## Honest tradeoff
 

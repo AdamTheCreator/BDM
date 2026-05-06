@@ -1,0 +1,12 @@
+{
+  "slug": "hg",
+  "name": "Hg",
+  "website": "https://hgcapital.com",
+  "hq": "London, UK",
+  "overview": "European software-specialist buyout firm — among the largest dedicated software investors in Europe. Multiple fund strategies (Saturn for largest, Genesis for upper-mid, Mercury for mid). Known for sector-cluster specialization and high portfolio overlap on cross-platform value creation.",
+  "sectorFocus": ["software", "tech-enabled services", "vertical SaaS"],
+  "notable": [
+    "Sector-cluster model: deep specialization in tax/accounting software, ERP, healthcare IT, etc."
+  ],
+  "bdNotes": "EU-headquartered. US-based candidate would need to confirm whether the firm has US-based BD seats or NY/Boston offices currently active."
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "francisco-partners",
+  "name": "Francisco Partners",
+  "website": "https://franciscopartners.com",
+  "hq": "San Francisco, CA",
+  "overview": "Tech-specialist buyout firm with multiple fund strategies spanning large-cap, middle-market, and credit. Known for complex carve-outs from large strategics and divestiture-driven origination — pattern that benefits from sales-engineering pattern recognition on enterprise software stacks.",
+  "sectorFocus": ["enterprise software", "internet", "communications", "tech-enabled services"],
+  "notable": [
+    "Long track record of carve-outs from public technology companies"
+  ],
+  "bdNotes": "Carve-out / divestiture sourcing is a real BD muscle here; a thesis pitched as 'I think [strategic] is going to divest [unit] within 18 months because of X' tracks well to their playbook."
+}

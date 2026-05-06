@@ -1,0 +1,12 @@
+{
+  "slug": "silver-lake",
+  "name": "Silver Lake",
+  "website": "https://silverlake.com",
+  "hq": "Menlo Park, CA",
+  "overview": "Among the largest tech-specialist private equity firms globally. Focus on large-cap technology buyouts and structured equity, often complex take-privates and partnership transactions with founders or strategics. Multi-strategy with growth alongside flagship buyout.",
+  "sectorFocus": ["large-cap technology", "internet", "communications", "tech-enabled services"],
+  "notable": [
+    "Long history of large-cap, complex technology transactions"
+  ],
+  "bdNotes": "Large-cap focus means BD is often relationship-led with C-suites of public companies and major sponsors rather than thematic outbound to LMM founders."
+}

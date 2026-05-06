@@ -1,8 +1,10 @@
 import { NextResponse } from "next/server";
+import { loadAllDeals } from "@/lib/deals";
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
-// Stub. Phase 5: read deal JSON files from content/deals/YYYY-MM-DD/ and return.
 export async function GET() {
-  return NextResponse.json({ deals: [], note: "Deal feed not yet wired up — see scripts/refresh-deals.ts." });
+  const deals = await loadAllDeals();
+  return NextResponse.json({ deals });
 }
