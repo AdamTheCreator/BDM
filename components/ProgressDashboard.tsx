@@ -14,6 +14,8 @@ import { loadSequences } from "@/lib/outbound-storage";
 import type { OutboundSequence } from "@/lib/types-outbound";
 import { loadInterviews } from "@/lib/interview-storage";
 import type { SavedInterview } from "@/lib/types-interview";
+import { loadCases } from "@/lib/case-storage";
+import type { SavedCase } from "@/lib/types-case";
 
 const MODULES: { key: PracticeModule; label: string; topic: string; href: string }[] = [
   { key: "paper-lbo", label: "Paper LBO", topic: "LBO", href: "/practice/paper-lbo" },
@@ -27,6 +29,7 @@ export default function ProgressDashboard() {
   const [theses, setTheses] = useState<SavedThesis[]>([]);
   const [sequences, setSequences] = useState<OutboundSequence[]>([]);
   const [interviews, setInterviews] = useState<SavedInterview[]>([]);
+  const [cases, setCases] = useState<SavedCase[]>([]);
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
@@ -34,6 +37,7 @@ export default function ProgressDashboard() {
     setTheses(loadTheses());
     setSequences(loadSequences());
     setInterviews(loadInterviews());
+    setCases(loadCases());
     setHydrated(true);
   }, []);
 
@@ -56,13 +60,14 @@ export default function ProgressDashboard() {
 
   return (
     <div className="space-y-8">
-      <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+      <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
         <Stat label="Total attempts" value={String(totalAttempts)} />
         <Stat label="Pass rate" value={`${(overallPassRate * 100).toFixed(0)}%`} />
         <Stat label="Streak (days)" value={String(streak)} />
         <Stat label="Theses" value={String(theses.length)} />
         <Stat label="Sequences" value={String(sequences.length)} />
         <Stat label="Interviews" value={String(interviews.length)} />
+        <Stat label="Cases" value={String(cases.length)} />
       </section>
 
       <section>
@@ -141,6 +146,42 @@ export default function ProgressDashboard() {
                 </span>
               </li>
             ))}
+          </ul>
+        </section>
+      )}
+
+      {cases.length > 0 && (
+        <section>
+          <h2 className="text-sm uppercase tracking-wide text-zinc-500 mb-3">
+            Case history
+          </h2>
+          <ul className="divide-y divide-zinc-200 dark:divide-zinc-800 border border-zinc-200 dark:border-zinc-800 rounded-md">
+            {cases
+              .slice()
+              .reverse()
+              .slice(0, 10)
+              .map((c) => {
+                const avg =
+                  Object.values(c.rubric.scores).reduce((s, v) => s + v, 0) /
+                  Object.values(c.rubric.scores).length;
+                return (
+                  <li
+                    key={c.id}
+                    className="px-4 py-3 text-sm flex items-baseline justify-between"
+                  >
+                    <span>
+                      <span className="font-medium">{c.cim.target}</span>
+                      <span className="text-zinc-500 ml-2">
+                        {c.cim.industry} · {c.rubric.candidateConclusion}
+                      </span>
+                    </span>
+                    <span className="text-xs text-zinc-500">
+                      avg {avg.toFixed(1)}/5 ·{" "}
+                      {new Date(c.createdAt).toLocaleDateString()}
+                    </span>
+                  </li>
+                );
+              })}
           </ul>
         </section>
       )}
