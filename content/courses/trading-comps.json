@@ -1,0 +1,16 @@
+{
+  "slug": "trading-comps",
+  "number": 4,
+  "title": "Trading Comps",
+  "description": "Spreading EXTR, CSCO, ANET, HPE, JNPR. GAAP-to-non-GAAP, calendarization, football field charts.",
+  "totalLessons": 91,
+  "totalRuntimeMinutes": 410,
+  "chapters": [
+    { "slug": "introduction", "title": "Introduction", "lessons": [] },
+    { "slug": "spreading-extr", "title": "Spreading EXTR", "lessons": [] },
+    { "slug": "spreading-csco", "title": "Spreading CSCO", "lessons": [] },
+    { "slug": "peer-spreads", "title": "Peer Group Spreads (ANET, HPE, JNPR)", "lessons": [] },
+    { "slug": "presentation-interpretation", "title": "Presentation & Interpretation", "lessons": [] },
+    { "slug": "gaap-nongaap-appendix", "title": "GAAP-to-Non-GAAP Appendix", "lessons": [] }
+  ]
+}

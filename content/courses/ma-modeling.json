@@ -1,0 +1,15 @@
+{
+  "slug": "ma-modeling",
+  "number": 3,
+  "title": "M&A Modeling",
+  "description": "Apple-Disney accretion/dilution, PPA, deal financing, contribution analysis, exchange ratios.",
+  "totalLessons": 38,
+  "totalRuntimeMinutes": 354,
+  "chapters": [
+    { "slug": "overview", "title": "M&A Overview", "lessons": [] },
+    { "slug": "accretion-dilution", "title": "Accretion / Dilution", "lessons": [] },
+    { "slug": "ppa", "title": "Purchase Price Allocation", "lessons": [] },
+    { "slug": "modeling", "title": "Modeling the Deal", "lessons": [] },
+    { "slug": "contribution-exchange", "title": "Contribution Analysis & Exchange Ratios", "lessons": [] }
+  ]
+}
