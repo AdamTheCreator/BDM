@@ -10,6 +10,8 @@ import {
   type ModuleStats,
 } from "@/lib/practice-storage";
 import { loadTheses, type SavedThesis } from "@/lib/thesis-storage";
+import { loadSequences } from "@/lib/outbound-storage";
+import type { OutboundSequence } from "@/lib/types-outbound";
 
 const MODULES: { key: PracticeModule; label: string; topic: string; href: string }[] = [
   { key: "paper-lbo", label: "Paper LBO", topic: "LBO", href: "/practice/paper-lbo" },
@@ -21,11 +23,13 @@ const MODULES: { key: PracticeModule; label: string; topic: string; href: string
 export default function ProgressDashboard() {
   const [attempts, setAttempts] = useState<PracticeAttempt[]>([]);
   const [theses, setTheses] = useState<SavedThesis[]>([]);
+  const [sequences, setSequences] = useState<OutboundSequence[]>([]);
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     setAttempts(loadAttempts());
     setTheses(loadTheses());
+    setSequences(loadSequences());
     setHydrated(true);
   }, []);
 
@@ -48,11 +52,12 @@ export default function ProgressDashboard() {
 
   return (
     <div className="space-y-8">
-      <section className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <section className="grid grid-cols-2 sm:grid-cols-5 gap-3">
         <Stat label="Total attempts" value={String(totalAttempts)} />
         <Stat label="Pass rate" value={`${(overallPassRate * 100).toFixed(0)}%`} />
         <Stat label="Streak (days)" value={String(streak)} />
-        <Stat label="Theses saved" value={String(theses.length)} />
+        <Stat label="Theses" value={String(theses.length)} />
+        <Stat label="Sequences" value={String(sequences.length)} />
       </section>
 
       <section>
@@ -105,6 +110,29 @@ export default function ProgressDashboard() {
                 </span>
                 <span className="text-xs text-zinc-500">
                   {new Date(t.savedAt).toLocaleDateString()}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {sequences.length > 0 && (
+        <section>
+          <h2 className="text-sm uppercase tracking-wide text-zinc-500 mb-3">
+            Outbound gallery
+          </h2>
+          <ul className="divide-y divide-zinc-200 dark:divide-zinc-800 border border-zinc-200 dark:border-zinc-800 rounded-md">
+            {sequences.slice(0, 10).map((s) => (
+              <li key={s.id} className="px-4 py-3 text-sm flex items-baseline justify-between">
+                <span>
+                  <span className="font-medium">{s.company}</span>
+                  <span className="text-zinc-500 ml-2">
+                    {s.persona} · {s.angle}
+                  </span>
+                </span>
+                <span className="text-xs text-zinc-500">
+                  {new Date(s.createdAt).toLocaleDateString()}
                 </span>
               </li>
             ))}
