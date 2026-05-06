@@ -6,11 +6,132 @@
   "totalLessons": 91,
   "totalRuntimeMinutes": 410,
   "chapters": [
-    { "slug": "introduction", "title": "Introduction", "lessons": [] },
-    { "slug": "spreading-extr", "title": "Spreading EXTR", "lessons": [] },
-    { "slug": "spreading-csco", "title": "Spreading CSCO", "lessons": [] },
-    { "slug": "peer-spreads", "title": "Peer Group Spreads (ANET, HPE, JNPR)", "lessons": [] },
-    { "slug": "presentation-interpretation", "title": "Presentation & Interpretation", "lessons": [] },
-    { "slug": "gaap-nongaap-appendix", "title": "GAAP-to-Non-GAAP Appendix", "lessons": [] }
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "lessons": [
+        { "slug": "what-trading-comps-measure", "number": 1, "title": "What trading comps measure", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "ev-vs-equity-value-multiples", "number": 2, "title": "EV vs. equity value multiples", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "ltm-ntm-and-fy-conventions", "number": 3, "title": "LTM, NTM, and FY conventions", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "selecting-the-peer-group", "number": 4, "title": "Selecting the peer group", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "data-sources-for-comps", "number": 5, "title": "Data sources for comps", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "the-comps-output-schematic", "number": 6, "title": "The comps output schematic", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "case-study-network-equipment-peers", "number": 7, "title": "Case study: networking equipment peers", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "comps-do-and-dont", "number": 8, "title": "Comps do's and don'ts", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "spreading-extr",
+      "title": "Spreading EXTR",
+      "lessons": [
+        { "slug": "extr-locating-financials", "number": 9, "title": "EXTR: locating financials", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-share-count-and-options", "number": 10, "title": "EXTR: share count and options", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-tsm-on-options", "number": 11, "title": "EXTR: TSM on options", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-equity-value-calc", "number": 12, "title": "EXTR: equity value calc", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-debt-and-debt-like-items", "number": 13, "title": "EXTR: debt and debt-like items", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-cash-and-cash-equivalents", "number": 14, "title": "EXTR: cash and cash equivalents", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-minority-interest-equity-investments", "number": 15, "title": "EXTR: minority interest and equity investments", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-enterprise-value-bridge", "number": 16, "title": "EXTR: enterprise value bridge", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-revenue-by-period", "number": 17, "title": "EXTR: revenue by period", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-gross-profit-by-period", "number": 18, "title": "EXTR: gross profit by period", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-ebitda-by-period", "number": 19, "title": "EXTR: EBITDA by period", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-ebit-by-period", "number": 20, "title": "EXTR: EBIT by period", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-net-income-by-period", "number": 21, "title": "EXTR: net income by period", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-eps-by-period", "number": 22, "title": "EXTR: EPS by period", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-ltm-stub-calculation", "number": 23, "title": "EXTR: LTM stub calculation", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-calendarization", "number": 24, "title": "EXTR: calendarization", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-non-gaap-adjustments", "number": 25, "title": "EXTR: non-GAAP adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-stock-based-compensation-handling", "number": 26, "title": "EXTR: stock-based compensation handling", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extr-restructuring-charges", "number": 27, "title": "EXTR: restructuring charges", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "extr-final-comps-row", "number": 28, "title": "EXTR: final comps row output", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-multiples-calculation", "number": 29, "title": "EXTR: multiples calculation", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extr-sanity-checking-output", "number": 30, "title": "EXTR: sanity-checking the output", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "spreading-csco",
+      "title": "Spreading CSCO",
+      "lessons": [
+        { "slug": "csco-locating-financials", "number": 31, "title": "CSCO: locating financials", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "csco-fiscal-year-conversion", "number": 32, "title": "CSCO: fiscal year conversion", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-share-count-buybacks", "number": 33, "title": "CSCO: share count and buybacks", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-rsus-and-options", "number": 34, "title": "CSCO: RSUs and options", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-equity-value-calc", "number": 35, "title": "CSCO: equity value calc", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "csco-cash-vs-investments", "number": 36, "title": "CSCO: cash vs. long-term investments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-debt-treatment", "number": 37, "title": "CSCO: debt treatment", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-pension-and-opeb-add-ons", "number": 38, "title": "CSCO: pension and OPEB add-ons", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-enterprise-value-bridge", "number": 39, "title": "CSCO: enterprise value bridge", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-segment-revenue", "number": 40, "title": "CSCO: segment revenue", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "csco-gross-margin-trends", "number": 41, "title": "CSCO: gross margin trends", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "csco-ebitda-build", "number": 42, "title": "CSCO: EBITDA build", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-ltm-stub-and-cy-adjustment", "number": 43, "title": "CSCO: LTM stub and calendar-year adjustment", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-non-gaap-adjustments", "number": 44, "title": "CSCO: non-GAAP adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-acquisition-related-charges", "number": 45, "title": "CSCO: acquisition-related charges", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "csco-multiples-calculation", "number": 46, "title": "CSCO: multiples calculation", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "csco-sanity-check-and-output", "number": 47, "title": "CSCO: sanity check and output", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "csco-vs-extr-comparison", "number": 48, "title": "CSCO vs. EXTR comparison", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "peer-spreads",
+      "title": "Peer Group Spreads (ANET, HPE, JNPR)",
+      "lessons": [
+        { "slug": "anet-locating-financials", "number": 49, "title": "ANET: locating financials", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "anet-share-count-and-cap-structure", "number": 50, "title": "ANET: share count and capital structure", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "anet-revenue-and-margin-build", "number": 51, "title": "ANET: revenue and margin build", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "anet-non-gaap-adjustments", "number": 52, "title": "ANET: non-GAAP adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "anet-ltm-and-multiples", "number": 53, "title": "ANET: LTM and multiples", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "anet-final-output", "number": 54, "title": "ANET: final output", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "anet-vs-peers-context", "number": 55, "title": "ANET vs. peers context", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "hpe-locating-financials", "number": 56, "title": "HPE: locating financials", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "hpe-spinoff-history-considerations", "number": 57, "title": "HPE: spinoff history considerations", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hpe-segment-mix", "number": 58, "title": "HPE: segment mix", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "hpe-debt-and-financing-segments", "number": 59, "title": "HPE: debt and financing segments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hpe-ev-bridge", "number": 60, "title": "HPE: EV bridge", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "hpe-margin-history-and-non-gaap", "number": 61, "title": "HPE: margin history and non-GAAP", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hpe-multiples-and-output", "number": 62, "title": "HPE: multiples and output", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "jnpr-locating-financials", "number": 63, "title": "JNPR: locating financials", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "jnpr-cap-structure-buybacks", "number": 64, "title": "JNPR: cap structure and buybacks", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "jnpr-revenue-and-margin", "number": 65, "title": "JNPR: revenue and margin", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "jnpr-non-gaap-adjustments", "number": 66, "title": "JNPR: non-GAAP adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "jnpr-multiples-calculation", "number": 67, "title": "JNPR: multiples calculation", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "jnpr-sanity-check-and-output", "number": 68, "title": "JNPR: sanity check and output", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "comparing-five-peers", "number": 69, "title": "Comparing all five peers", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "outliers-and-exclusions", "number": 70, "title": "Outliers and exclusions", "runtimeSeconds": 300, "type": "video" }
+      ]
+    },
+    {
+      "slug": "presentation-interpretation",
+      "title": "Presentation & Interpretation",
+      "lessons": [
+        { "slug": "median-mean-and-quartiles", "number": 71, "title": "Median, mean, and quartiles", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "high-low-and-range-presentation", "number": 72, "title": "High-low and range presentation", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "multiples-vs-growth-charting", "number": 73, "title": "Multiples vs. growth charting", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "ev-revenue-vs-ev-ebitda", "number": 74, "title": "EV/revenue vs. EV/EBITDA selection", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "rule-of-40-for-software-comps", "number": 75, "title": "Rule of 40 for software comps", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "growth-adjusted-multiples", "number": 76, "title": "Growth-adjusted multiples", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "applying-comps-to-target", "number": 77, "title": "Applying comps to a target valuation", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "football-field-from-comps", "number": 78, "title": "Football field from comps", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "ic-presentation-narrative", "number": 79, "title": "IC presentation narrative", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "what-comps-do-not-tell-you", "number": 80, "title": "What comps do not tell you", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "stale-comps-and-multiple-compression", "number": 81, "title": "Stale comps and multiple compression", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "comps-update-cadence", "number": 82, "title": "Comps update cadence", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "gaap-nongaap-appendix",
+      "title": "GAAP-to-Non-GAAP Appendix",
+      "lessons": [
+        { "slug": "why-non-gaap-exists", "number": 83, "title": "Why non-GAAP exists", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "stock-based-compensation-debate", "number": 84, "title": "Stock-based compensation debate", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "amortization-of-acquired-intangibles", "number": 85, "title": "Amortization of acquired intangibles", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "restructuring-and-impairments", "number": 86, "title": "Restructuring and impairments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "litigation-charges-and-one-timers", "number": 87, "title": "Litigation charges and one-timers", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "tax-effecting-non-gaap-adjustments", "number": 88, "title": "Tax-effecting non-GAAP adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "comparing-management-non-gaap-to-yours", "number": 89, "title": "Comparing management's non-GAAP to your own", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "non-gaap-pitfalls", "number": 90, "title": "Non-GAAP pitfalls", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "interview-questions-on-non-gaap", "number": 91, "title": "Interview questions on non-GAAP", "runtimeSeconds": 240, "type": "video" }
+      ]
+    }
   ]
 }

@@ -6,10 +6,73 @@
   "totalLessons": 38,
   "totalRuntimeMinutes": 354,
   "chapters": [
-    { "slug": "overview", "title": "M&A Overview", "lessons": [] },
-    { "slug": "accretion-dilution", "title": "Accretion / Dilution", "lessons": [] },
-    { "slug": "ppa", "title": "Purchase Price Allocation", "lessons": [] },
-    { "slug": "modeling", "title": "Modeling the Deal", "lessons": [] },
-    { "slug": "contribution-exchange", "title": "Contribution Analysis & Exchange Ratios", "lessons": [] }
+    {
+      "slug": "overview",
+      "title": "M&A Overview",
+      "lessons": [
+        { "slug": "why-companies-merge", "number": 1, "title": "Why companies merge", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "strategic-vs-financial-buyers", "number": 2, "title": "Strategic vs. financial buyers", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "deal-structures-overview", "number": 3, "title": "Deal structures: stock, asset, merger of equals", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "consideration-types", "number": 4, "title": "Consideration types: cash, stock, mixed", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "case-study-apple-disney", "number": 5, "title": "Case study: Apple-Disney setup", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "accretion-dilution",
+      "title": "Accretion / Dilution",
+      "lessons": [
+        { "slug": "accretion-dilution-framework", "number": 6, "title": "Accretion / dilution framework", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "pf-net-income-bridge", "number": 7, "title": "Pro forma net income bridge", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "after-tax-cost-of-cash", "number": 8, "title": "After-tax cost of cash used", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "after-tax-cost-of-new-debt", "number": 9, "title": "After-tax cost of new debt", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "new-shares-from-stock-financing", "number": 10, "title": "New shares from stock financing", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "synergies-and-realization", "number": 11, "title": "Synergies and realization timing", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "pe-arbitrage-intuition", "number": 12, "title": "PE arbitrage intuition", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "breakeven-and-sensitivity", "number": 13, "title": "Breakeven analysis and sensitivity", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "apple-disney-ad-output", "number": 14, "title": "Apple-Disney accretion output", "runtimeSeconds": 660, "type": "video" }
+      ]
+    },
+    {
+      "slug": "ppa",
+      "title": "Purchase Price Allocation",
+      "lessons": [
+        { "slug": "ppa-conceptual-overview", "number": 15, "title": "PPA conceptual overview", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "writing-up-tangible-assets", "number": 16, "title": "Writing up tangible assets", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "identifiable-intangibles-creation", "number": 17, "title": "Identifiable intangibles creation", "runtimeSeconds": 660, "type": "video" },
+        { "slug": "deferred-tax-liability-from-write-ups", "number": 18, "title": "DTL from asset write-ups", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "goodwill-as-the-plug", "number": 19, "title": "Goodwill as the plug", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "amortization-of-new-intangibles", "number": 20, "title": "Amortization of new intangibles", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "ppa-impact-on-ad", "number": 21, "title": "PPA impact on accretion / dilution", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "apple-disney-ppa-build", "number": 22, "title": "Apple-Disney PPA build", "runtimeSeconds": 600, "type": "video" }
+      ]
+    },
+    {
+      "slug": "modeling",
+      "title": "Modeling the Deal",
+      "lessons": [
+        { "slug": "sources-and-uses-of-funds", "number": 23, "title": "Sources and uses of funds", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "transaction-fees-and-financing-fees", "number": 24, "title": "Transaction fees and financing fees", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-the-bs-adjustments", "number": 25, "title": "Modeling the balance sheet adjustments", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "pro-forma-balance-sheet", "number": 26, "title": "Pro forma balance sheet", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "pro-forma-income-statement", "number": 27, "title": "Pro forma income statement", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "pro-forma-cash-flow-statement", "number": 28, "title": "Pro forma cash flow statement", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "deal-financing-tax-shields", "number": 29, "title": "Deal financing tax shields", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "minimum-cash-and-revolver-impact", "number": 30, "title": "Minimum cash and revolver impact", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "pf-credit-metrics", "number": 31, "title": "Pro forma credit metrics", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "apple-disney-pf-three-statement", "number": 32, "title": "Apple-Disney pro forma 3-statement", "runtimeSeconds": 660, "type": "video" },
+        { "slug": "auditing-the-deal-model", "number": 33, "title": "Auditing the deal model", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "contribution-exchange",
+      "title": "Contribution Analysis & Exchange Ratios",
+      "lessons": [
+        { "slug": "contribution-analysis-framework", "number": 34, "title": "Contribution analysis framework", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "fixed-vs-floating-exchange-ratios", "number": 35, "title": "Fixed vs. floating exchange ratios", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "collars-walkaway-rights", "number": 36, "title": "Collars and walkaway rights", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "value-vs-ownership-tradeoff", "number": 37, "title": "Value vs. ownership tradeoff", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "negotiation-implications", "number": 38, "title": "Negotiation implications for the BD/IB team", "runtimeSeconds": 480, "type": "video" }
+      ]
+    }
   ]
 }

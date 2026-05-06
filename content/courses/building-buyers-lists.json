@@ -6,6 +6,32 @@
   "totalLessons": 21,
   "totalRuntimeMinutes": 96,
   "chapters": [
-    { "slug": "buyers-lists", "title": "Strategic vs. Financial Buyer Screens", "lessons": [] }
+    {
+      "slug": "buyers-lists",
+      "title": "Strategic vs. Financial Buyer Screens",
+      "lessons": [
+        { "slug": "buyers-list-purpose", "number": 1, "title": "Buyers list purpose and audience", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "strategic-vs-financial-buyers", "number": 2, "title": "Strategic vs. financial buyers", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "tier-1-vs-tier-2-buyers", "number": 3, "title": "Tier 1 vs. Tier 2 buyer segmentation", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "strategic-buyer-screen-criteria", "number": 4, "title": "Strategic buyer screen criteria", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "geographic-fit", "number": 5, "title": "Geographic fit", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "product-and-end-market-fit", "number": 6, "title": "Product and end-market fit", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "financial-firepower-screen", "number": 7, "title": "Financial firepower screen", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "ma-track-record-screen", "number": 8, "title": "M&A track record screen", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "financial-buyer-screen-criteria", "number": 9, "title": "Financial buyer screen criteria", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "fund-vintage-and-deployable-capital", "number": 10, "title": "Fund vintage and deployable capital", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "fund-thesis-fit", "number": 11, "title": "Fund thesis fit", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "platform-vs-add-on-buyer", "number": 12, "title": "Platform vs. add-on buyer", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "pitchbook-workflow", "number": 13, "title": "PitchBook workflow", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "capital-iq-and-sourcescrub-alternatives", "number": 14, "title": "Capital IQ and SourceScrub alternatives", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "open-source-research-tactics", "number": 15, "title": "Open-source research tactics", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "outreach-prioritization", "number": 16, "title": "Outreach prioritization", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "managing-the-buyers-list-spreadsheet", "number": 17, "title": "Managing the buyers list spreadsheet", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "buyers-list-presentation-to-client", "number": 18, "title": "Buyers list presentation to client", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "buyers-list-iteration", "number": 19, "title": "Buyers list iteration through process", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "common-buyers-list-mistakes", "number": 20, "title": "Common buyers list mistakes", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "from-buyers-list-to-process-launch", "number": 21, "title": "From buyers list to process launch", "runtimeSeconds": 300, "type": "video" }
+      ]
+    }
   ]
 }

@@ -6,16 +6,159 @@
   "totalLessons": 88,
   "totalRuntimeMinutes": 586,
   "chapters": [
-    { "slug": "lbo-basics", "title": "LBO Basics", "lessons": [] },
-    { "slug": "pe-firm-structure", "title": "PE Firm Structure", "lessons": [] },
-    { "slug": "modeling-real-lbo-bmc", "title": "Modeling a Real LBO (BMC)", "lessons": [] },
-    { "slug": "exit-returns", "title": "Exit & Returns", "lessons": [] },
-    { "slug": "sensitivity", "title": "Sensitivity", "lessons": [] },
-    { "slug": "proforma-bs-adjustments", "title": "Pro Forma BS Adjustments", "lessons": [] },
-    { "slug": "dividend-recaps", "title": "Appendix: Dividend Recaps", "lessons": [] },
-    { "slug": "advanced-ppa", "title": "Appendix: Advanced PPA", "lessons": [] },
-    { "slug": "attaching-dcf", "title": "Appendix: Attaching DCF", "lessons": [] },
-    { "slug": "kkr-bmc-postmortem", "title": "Appendix: KKR / BMC Postmortem", "lessons": [] },
-    { "slug": "debt-deep-dive", "title": "Appendix: Debt Deep Dive", "lessons": [] }
+    {
+      "slug": "lbo-basics",
+      "title": "LBO Basics",
+      "lessons": [
+        { "slug": "what-an-lbo-is", "number": 1, "title": "What an LBO is, conceptually", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "the-three-irr-drivers", "number": 2, "title": "The three IRR drivers", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "leverage-as-equity-juice", "number": 3, "title": "Leverage as equity juice", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "ebitda-growth-and-deleveraging", "number": 4, "title": "EBITDA growth and deleveraging", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "multiple-arbitrage", "number": 5, "title": "Multiple arbitrage", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "what-makes-a-good-lbo-target", "number": 6, "title": "What makes a good LBO target", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "moic-vs-irr", "number": 7, "title": "MOIC vs. IRR", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "case-study-introducing-bmc", "number": 8, "title": "Case study: introducing BMC", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "pe-firm-structure",
+      "title": "PE Firm Structure",
+      "lessons": [
+        { "slug": "fund-structure-and-lps", "number": 9, "title": "Fund structure and LPs", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "gp-economics-management-fee-carry", "number": 10, "title": "GP economics: management fee + carry", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "deal-team-roles", "number": 11, "title": "Deal team roles", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "how-deals-get-sourced", "number": 12, "title": "How deals get sourced (BD function)", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "ic-process-and-approval", "number": 13, "title": "IC process and approval", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "lbo-modeling-in-the-deal-process", "number": 14, "title": "Where LBO modeling fits in the deal process", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "modeling-real-lbo-bmc",
+      "title": "Modeling a Real LBO (BMC)",
+      "lessons": [
+        { "slug": "bmc-deal-context-and-thesis", "number": 15, "title": "BMC deal context and thesis", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "purchase-price-and-deal-multiple", "number": 16, "title": "Purchase price and deal multiple", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "sources-and-uses-table", "number": 17, "title": "Sources and uses table", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "capital-structure-tranches", "number": 18, "title": "Capital structure tranches (TLA, TLB, sub notes)", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "minimum-cash-and-revolver-at-close", "number": 19, "title": "Minimum cash and revolver at close", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "transaction-and-financing-fees", "number": 20, "title": "Transaction and financing fees", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "purchase-price-allocation-for-lbo", "number": 21, "title": "Purchase price allocation for LBO", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "operating-projections-from-base-case", "number": 22, "title": "Operating projections from base case", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "ebitda-buildup-and-add-backs", "number": 23, "title": "EBITDA buildup and add-backs", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "capex-and-working-capital-assumptions", "number": 24, "title": "Capex and working capital assumptions", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "interest-expense-by-tranche", "number": 25, "title": "Interest expense by tranche", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "mandatory-amortization-schedule", "number": 26, "title": "Mandatory amortization schedule", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "cash-sweep-mechanics", "number": 27, "title": "Cash sweep mechanics", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "pik-interest-mechanics", "number": 28, "title": "PIK interest mechanics", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "revolver-during-hold", "number": 29, "title": "Revolver during hold", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "cash-flow-available-for-debt-service", "number": 30, "title": "Cash flow available for debt service", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "leverage-ratio-trajectory", "number": 31, "title": "Leverage ratio trajectory", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "covenant-tracking", "number": 32, "title": "Covenant tracking", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-tax-shield", "number": 33, "title": "Modeling the tax shield", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "lbo-three-statement-output", "number": 34, "title": "LBO 3-statement output", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "auditing-the-lbo-model", "number": 35, "title": "Auditing the LBO model", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "bmc-base-case-output", "number": 36, "title": "BMC base case output", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "exit-returns",
+      "title": "Exit & Returns",
+      "lessons": [
+        { "slug": "exit-multiple-assumptions", "number": 37, "title": "Exit multiple assumptions", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "exit-ev-and-debt-paydown", "number": 38, "title": "Exit EV and debt paydown", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "transaction-fees-at-exit", "number": 39, "title": "Transaction fees at exit", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "equity-bridge-to-sponsor", "number": 40, "title": "Equity bridge to sponsor", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "irr-and-moic-calculation", "number": 41, "title": "IRR and MOIC calculation", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "value-creation-decomposition", "number": 42, "title": "Value creation decomposition", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "management-co-invest-and-sweet-equity", "number": 43, "title": "Management co-invest and sweet equity", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "dual-track-and-ipo-exits", "number": 44, "title": "Dual-track and IPO exits", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "sensitivity",
+      "title": "Sensitivity",
+      "lessons": [
+        { "slug": "key-sensitivities-for-lbos", "number": 45, "title": "Key sensitivities for LBOs", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "entry-vs-exit-multiple-sensitivity", "number": 46, "title": "Entry vs. exit multiple sensitivity", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "leverage-vs-irr", "number": 47, "title": "Leverage vs. IRR", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "ebitda-growth-sensitivity", "number": 48, "title": "EBITDA growth sensitivity", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "two-way-tables-and-tornado-charts", "number": 49, "title": "Two-way tables and tornado charts", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "downside-and-upside-cases", "number": 50, "title": "Downside and upside cases", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "proforma-bs-adjustments",
+      "title": "Pro Forma BS Adjustments",
+      "lessons": [
+        { "slug": "opening-balance-sheet-conceptually", "number": 51, "title": "Opening balance sheet conceptually", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "asset-write-ups-and-write-downs", "number": 52, "title": "Asset write-ups and write-downs", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "deferred-financing-fees-asset", "number": 53, "title": "Deferred financing fees as an asset", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "old-equity-elimination", "number": 54, "title": "Old equity elimination", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "new-debt-and-equity-on-bs", "number": 55, "title": "New debt and equity on the BS", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "deferred-tax-from-write-ups", "number": 56, "title": "Deferred tax from write-ups", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "goodwill-creation", "number": 57, "title": "Goodwill creation", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "auditing-the-pro-forma-bs", "number": 58, "title": "Auditing the pro forma BS", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "dividend-recaps",
+      "title": "Appendix: Dividend Recaps",
+      "lessons": [
+        { "slug": "dividend-recap-conceptually", "number": 59, "title": "Dividend recap, conceptually", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "when-recaps-make-sense", "number": 60, "title": "When recaps make sense", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "modeling-the-recap-event", "number": 61, "title": "Modeling the recap event", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "irr-impact-of-recap", "number": 62, "title": "IRR impact of recap", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "covenant-and-rating-considerations", "number": 63, "title": "Covenant and rating considerations", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "second-recap-and-multi-recap-cases", "number": 64, "title": "Second recap and multi-recap cases", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "advanced-ppa",
+      "title": "Appendix: Advanced PPA",
+      "lessons": [
+        { "slug": "advanced-ppa-overview", "number": 65, "title": "Advanced PPA overview", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "intangible-asset-valuation-techniques", "number": 66, "title": "Intangible asset valuation techniques", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "step-up-vs-no-step-up-elections", "number": 67, "title": "Step-up vs. no-step-up elections", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "section-338h10-and-tax-implications", "number": 68, "title": "Section 338(h)(10) and tax implications", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "deferred-tax-asset-vs-liability", "number": 69, "title": "Deferred tax asset vs. liability", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "ppa-impact-on-lbo-irr", "number": 70, "title": "PPA impact on LBO IRR", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "attaching-dcf",
+      "title": "Appendix: Attaching DCF",
+      "lessons": [
+        { "slug": "dcf-as-floor-valuation", "number": 71, "title": "DCF as floor valuation", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "going-concern-vs-lbo-perspective", "number": 72, "title": "Going-concern vs. LBO perspective", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "private-company-wacc", "number": 73, "title": "Private company WACC", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "lbo-implied-multiple-vs-dcf", "number": 74, "title": "LBO-implied multiple vs. DCF", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "presenting-both-frameworks", "number": 75, "title": "Presenting both frameworks", "runtimeSeconds": 300, "type": "video" }
+      ]
+    },
+    {
+      "slug": "kkr-bmc-postmortem",
+      "title": "Appendix: KKR / BMC Postmortem",
+      "lessons": [
+        { "slug": "kkr-bmc-deal-recap", "number": 76, "title": "KKR / BMC deal recap", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "what-the-base-case-assumed", "number": 77, "title": "What the base case assumed", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "what-actually-happened", "number": 78, "title": "What actually happened", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "value-bridge-actual-vs-modeled", "number": 79, "title": "Value bridge: actual vs. modeled", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "what-the-team-got-right", "number": 80, "title": "What the team got right", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "what-the-team-got-wrong", "number": 81, "title": "What the team got wrong", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "lessons-for-bd-and-investing", "number": 82, "title": "Lessons for BD and investing", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "debt-deep-dive",
+      "title": "Appendix: Debt Deep Dive",
+      "lessons": [
+        { "slug": "leveraged-loan-market-overview", "number": 83, "title": "Leveraged loan market overview", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "first-lien-vs-second-lien", "number": 84, "title": "First lien vs. second lien", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "high-yield-bonds", "number": 85, "title": "High-yield bonds", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "mezzanine-and-pik-toggle", "number": 86, "title": "Mezzanine and PIK toggle", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "covenant-lite-vs-maintenance-covenants", "number": 87, "title": "Covenant-lite vs. maintenance covenants", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "rating-agencies-and-pricing", "number": 88, "title": "Rating agencies and pricing", "runtimeSeconds": 360, "type": "video" }
+      ]
+    }
   ]
 }

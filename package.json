@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "seed:courses": "tsx scripts/seed-courses.ts",
     "seed:videos": "tsx scripts/seed-videos.ts",
+    "generate:lessons": "tsx scripts/generate-lessons.ts",
     "refresh:deals": "tsx scripts/refresh-deals.ts"
   },
   "dependencies": {
