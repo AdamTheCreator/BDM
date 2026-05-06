@@ -1,0 +1,21 @@
+{
+  "slug": "financial-statement-modeling",
+  "number": 1,
+  "title": "Financial Statement Modeling",
+  "description": "Build a 3-statement model in Excel from Apple's 10-K. Forecasting, working capital, revolver/circularity, EPS, depreciation waterfall, sensitivity.",
+  "totalLessons": 82,
+  "totalRuntimeMinutes": 629,
+  "chapters": [
+    { "slug": "introduction", "title": "Introduction & Course Roadmap", "lessons": [] },
+    { "slug": "income-statement", "title": "Income Statement Forecast", "lessons": [] },
+    { "slug": "balance-sheet", "title": "Balance Sheet Build", "lessons": [] },
+    { "slug": "working-capital", "title": "Working Capital Schedule", "lessons": [] },
+    { "slug": "ppe-depreciation", "title": "PP&E and Depreciation Waterfall", "lessons": [] },
+    { "slug": "intangibles", "title": "Intangibles and Amortization", "lessons": [] },
+    { "slug": "other-ltassets-liabs", "title": "Other Long-Term Assets and Liabilities", "lessons": [] },
+    { "slug": "equity-schedule", "title": "Equity Schedule and Treasury Stock", "lessons": [] },
+    { "slug": "debt-revolver", "title": "Debt Schedule and Revolver Circularity", "lessons": [] },
+    { "slug": "cash-flow-statement", "title": "Cash Flow Statement Build", "lessons": [] },
+    { "slug": "eps-and-sensitivity", "title": "EPS, Sensitivities, and Final Audit", "lessons": [] }
+  ]
+}

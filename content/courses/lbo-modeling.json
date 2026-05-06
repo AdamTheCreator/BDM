@@ -1,0 +1,21 @@
+{
+  "slug": "lbo-modeling",
+  "number": 6,
+  "title": "LBO Modeling",
+  "description": "BMC LBO from scratch. Capital structure, sources & uses, sweeps, PIK, IRR sensitivity, dividend recaps, KKR/BMC postmortem.",
+  "totalLessons": 88,
+  "totalRuntimeMinutes": 586,
+  "chapters": [
+    { "slug": "lbo-basics", "title": "LBO Basics", "lessons": [] },
+    { "slug": "pe-firm-structure", "title": "PE Firm Structure", "lessons": [] },
+    { "slug": "modeling-real-lbo-bmc", "title": "Modeling a Real LBO (BMC)", "lessons": [] },
+    { "slug": "exit-returns", "title": "Exit & Returns", "lessons": [] },
+    { "slug": "sensitivity", "title": "Sensitivity", "lessons": [] },
+    { "slug": "proforma-bs-adjustments", "title": "Pro Forma BS Adjustments", "lessons": [] },
+    { "slug": "dividend-recaps", "title": "Appendix: Dividend Recaps", "lessons": [] },
+    { "slug": "advanced-ppa", "title": "Appendix: Advanced PPA", "lessons": [] },
+    { "slug": "attaching-dcf", "title": "Appendix: Attaching DCF", "lessons": [] },
+    { "slug": "kkr-bmc-postmortem", "title": "Appendix: KKR / BMC Postmortem", "lessons": [] },
+    { "slug": "debt-deep-dive", "title": "Appendix: Debt Deep Dive", "lessons": [] }
+  ]
+}

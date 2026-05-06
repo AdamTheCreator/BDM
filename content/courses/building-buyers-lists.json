@@ -1,0 +1,11 @@
+{
+  "slug": "building-buyers-lists",
+  "number": 7,
+  "title": "Building Buyers Lists",
+  "description": "Strategic vs. financial buyers, screening criteria, PitchBook workflow.",
+  "totalLessons": 21,
+  "totalRuntimeMinutes": 96,
+  "chapters": [
+    { "slug": "buyers-lists", "title": "Strategic vs. Financial Buyer Screens", "lessons": [] }
+  ]
+}

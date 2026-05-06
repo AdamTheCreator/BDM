@@ -1,0 +1,17 @@
+{
+  "slug": "transaction-comps",
+  "number": 5,
+  "title": "Transaction Comps",
+  "description": "Brocade/Foundry, Extreme/Enterasys, HP/3COM, Thoma Bravo/Blue Coat.",
+  "totalLessons": 52,
+  "totalRuntimeMinutes": 312,
+  "chapters": [
+    { "slug": "introduction", "title": "Introduction", "lessons": [] },
+    { "slug": "implementing", "title": "Implementing the Analysis", "lessons": [] },
+    { "slug": "dilutive-securities", "title": "Calculating Dilutive Securities", "lessons": [] },
+    { "slug": "brocade-foundry", "title": "Brocade / Foundry Modeling", "lessons": [] },
+    { "slug": "extreme-enterasys", "title": "Extreme / Enterasys", "lessons": [] },
+    { "slug": "hp-3com", "title": "HP / 3COM", "lessons": [] },
+    { "slug": "thoma-bravo-blue-coat", "title": "Thoma Bravo / Blue Coat", "lessons": [] }
+  ]
+}

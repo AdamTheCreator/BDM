@@ -1,0 +1,20 @@
+{
+  "slug": "dcf-modeling",
+  "number": 2,
+  "title": "DCF Modeling",
+  "description": "Apple DCF: UFCF, WACC, terminal value (perpetuity + exit multiple), share count, sensitivity, football field.",
+  "totalLessons": 66,
+  "totalRuntimeMinutes": 372,
+  "chapters": [
+    { "slug": "dcf-overview", "title": "DCF Overview", "lessons": [] },
+    { "slug": "dcf-mechanics", "title": "DCF Mechanics", "lessons": [] },
+    { "slug": "core-dcf-build", "title": "Building the Core DCF", "lessons": [] },
+    { "slug": "presenting-output", "title": "Presenting the DCF Output", "lessons": [] },
+    { "slug": "mid-year-convention", "title": "Mid-Year Convention", "lessons": [] },
+    { "slug": "stock-options-convertibles", "title": "Stock Options & Convertibles", "lessons": [] },
+    { "slug": "wacc", "title": "WACC", "lessons": [] },
+    { "slug": "connect-3statement", "title": "Connecting DCF to 3-Statement", "lessons": [] },
+    { "slug": "additional-considerations", "title": "Additional Considerations", "lessons": [] },
+    { "slug": "dcf-appendix", "title": "DCF Appendix", "lessons": [] }
+  ]
+}
