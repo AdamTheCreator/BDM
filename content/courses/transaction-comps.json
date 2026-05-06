@@ -6,12 +6,99 @@
   "totalLessons": 52,
   "totalRuntimeMinutes": 312,
   "chapters": [
-    { "slug": "introduction", "title": "Introduction", "lessons": [] },
-    { "slug": "implementing", "title": "Implementing the Analysis", "lessons": [] },
-    { "slug": "dilutive-securities", "title": "Calculating Dilutive Securities", "lessons": [] },
-    { "slug": "brocade-foundry", "title": "Brocade / Foundry Modeling", "lessons": [] },
-    { "slug": "extreme-enterasys", "title": "Extreme / Enterasys", "lessons": [] },
-    { "slug": "hp-3com", "title": "HP / 3COM", "lessons": [] },
-    { "slug": "thoma-bravo-blue-coat", "title": "Thoma Bravo / Blue Coat", "lessons": [] }
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "lessons": [
+        { "slug": "what-transaction-comps-measure", "number": 1, "title": "What transaction comps measure", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "trading-vs-transaction-multiples", "number": 2, "title": "Trading vs. transaction multiples", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "control-premium-conceptually", "number": 3, "title": "Control premium conceptually", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "selecting-precedent-deals", "number": 4, "title": "Selecting precedent deals", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "data-sources-for-precedent-deals", "number": 5, "title": "Data sources for precedent deals", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "case-study-set-overview", "number": 6, "title": "Case study set overview", "runtimeSeconds": 300, "type": "video" }
+      ]
+    },
+    {
+      "slug": "implementing",
+      "title": "Implementing the Analysis",
+      "lessons": [
+        { "slug": "deal-announcement-vs-close-date", "number": 7, "title": "Deal announcement vs. close date", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "purchase-price-and-equity-value", "number": 8, "title": "Purchase price and equity value", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "deal-enterprise-value-bridge", "number": 9, "title": "Deal enterprise value bridge", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "ltm-financials-at-announcement", "number": 10, "title": "LTM financials at announcement", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "synergy-disclosure-treatment", "number": 11, "title": "Synergy disclosure treatment", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "transaction-multiples-calculation", "number": 12, "title": "Transaction multiples calculation", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "stock-deal-vs-cash-deal-treatment", "number": 13, "title": "Stock deal vs. cash deal treatment", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "presenting-the-output", "number": 14, "title": "Presenting the output", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "dilutive-securities",
+      "title": "Calculating Dilutive Securities",
+      "lessons": [
+        { "slug": "options-tsm-in-deals", "number": 15, "title": "Options TSM in deal contexts", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "convertible-debt-in-deals", "number": 16, "title": "Convertible debt in deal contexts", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "convertible-preferred-treatment", "number": 17, "title": "Convertible preferred treatment", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "rsus-and-vesting-acceleration", "number": 18, "title": "RSUs and vesting acceleration", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "earnouts-and-contingent-value-rights", "number": 19, "title": "Earnouts and contingent value rights", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "fully-diluted-share-count-output", "number": 20, "title": "Fully diluted share count output", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "brocade-foundry",
+      "title": "Brocade / Foundry Modeling",
+      "lessons": [
+        { "slug": "brocade-foundry-deal-overview", "number": 21, "title": "Brocade / Foundry deal overview", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "brocade-foundry-deal-financials", "number": 22, "title": "Brocade / Foundry deal financials", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "brocade-foundry-share-count", "number": 23, "title": "Brocade / Foundry share count", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "brocade-foundry-equity-value", "number": 24, "title": "Brocade / Foundry equity value", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "brocade-foundry-ev-bridge", "number": 25, "title": "Brocade / Foundry EV bridge", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "brocade-foundry-ltm-financials", "number": 26, "title": "Brocade / Foundry LTM financials", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "brocade-foundry-multiples", "number": 27, "title": "Brocade / Foundry multiples", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "brocade-foundry-output-row", "number": 28, "title": "Brocade / Foundry output row", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "extreme-enterasys",
+      "title": "Extreme / Enterasys",
+      "lessons": [
+        { "slug": "extreme-enterasys-deal-overview", "number": 29, "title": "Extreme / Enterasys deal overview", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "extreme-enterasys-private-target-data", "number": 30, "title": "Extreme / Enterasys: private target data", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "extreme-enterasys-purchase-price", "number": 31, "title": "Extreme / Enterasys purchase price", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extreme-enterasys-debt-and-cash", "number": 32, "title": "Extreme / Enterasys debt and cash", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extreme-enterasys-ev-bridge", "number": 33, "title": "Extreme / Enterasys EV bridge", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extreme-enterasys-ltm-financials", "number": 34, "title": "Extreme / Enterasys LTM financials", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "extreme-enterasys-multiples", "number": 35, "title": "Extreme / Enterasys multiples", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "extreme-enterasys-output-row", "number": 36, "title": "Extreme / Enterasys output row", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "hp-3com",
+      "title": "HP / 3COM",
+      "lessons": [
+        { "slug": "hp-3com-deal-overview", "number": 37, "title": "HP / 3COM deal overview", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "hp-3com-purchase-price", "number": 38, "title": "HP / 3COM purchase price", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hp-3com-options-and-rsus", "number": 39, "title": "HP / 3COM options and RSUs", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "hp-3com-equity-value", "number": 40, "title": "HP / 3COM equity value", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "hp-3com-ev-bridge", "number": 41, "title": "HP / 3COM EV bridge", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hp-3com-ltm-financials", "number": 42, "title": "HP / 3COM LTM financials", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "hp-3com-multiples", "number": 43, "title": "HP / 3COM multiples", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "hp-3com-output-row", "number": 44, "title": "HP / 3COM output row", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "thoma-bravo-blue-coat",
+      "title": "Thoma Bravo / Blue Coat",
+      "lessons": [
+        { "slug": "thoma-bravo-blue-coat-deal-overview", "number": 45, "title": "Thoma Bravo / Blue Coat deal overview", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "thoma-bravo-pe-ownership-context", "number": 46, "title": "Thoma Bravo: PE ownership context", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "thoma-bravo-purchase-price", "number": 47, "title": "Thoma Bravo / Blue Coat purchase price", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "thoma-bravo-cap-structure-at-deal", "number": 48, "title": "Cap structure at deal", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "thoma-bravo-ev-bridge", "number": 49, "title": "Thoma Bravo / Blue Coat EV bridge", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "thoma-bravo-ltm-and-non-gaap", "number": 50, "title": "Blue Coat LTM and non-GAAP", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "thoma-bravo-multiples", "number": 51, "title": "Thoma Bravo / Blue Coat multiples", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "thoma-bravo-output-and-comparison", "number": 52, "title": "Output and comparison across deals", "runtimeSeconds": 360, "type": "video" }
+      ]
+    }
   ]
 }

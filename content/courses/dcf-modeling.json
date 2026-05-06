@@ -6,15 +6,131 @@
   "totalLessons": 66,
   "totalRuntimeMinutes": 372,
   "chapters": [
-    { "slug": "dcf-overview", "title": "DCF Overview", "lessons": [] },
-    { "slug": "dcf-mechanics", "title": "DCF Mechanics", "lessons": [] },
-    { "slug": "core-dcf-build", "title": "Building the Core DCF", "lessons": [] },
-    { "slug": "presenting-output", "title": "Presenting the DCF Output", "lessons": [] },
-    { "slug": "mid-year-convention", "title": "Mid-Year Convention", "lessons": [] },
-    { "slug": "stock-options-convertibles", "title": "Stock Options & Convertibles", "lessons": [] },
-    { "slug": "wacc", "title": "WACC", "lessons": [] },
-    { "slug": "connect-3statement", "title": "Connecting DCF to 3-Statement", "lessons": [] },
-    { "slug": "additional-considerations", "title": "Additional Considerations", "lessons": [] },
-    { "slug": "dcf-appendix", "title": "DCF Appendix", "lessons": [] }
+    {
+      "slug": "dcf-overview",
+      "title": "DCF Overview",
+      "lessons": [
+        { "slug": "what-the-dcf-actually-measures", "number": 1, "title": "What the DCF actually measures", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "intrinsic-vs-relative-valuation", "number": 2, "title": "Intrinsic vs. relative valuation", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "when-dcf-is-the-wrong-tool", "number": 3, "title": "When DCF is the wrong tool", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "dcf-output-architecture", "number": 4, "title": "DCF output architecture", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "case-study-introducing-apple", "number": 5, "title": "Case study: introducing Apple", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "dcf-mechanics",
+      "title": "DCF Mechanics",
+      "lessons": [
+        { "slug": "ufcf-vs-lfcf", "number": 6, "title": "Unlevered vs. levered free cash flow", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "ufcf-build-from-ebit", "number": 7, "title": "Building UFCF from EBIT", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "tax-affecting-ebit", "number": 8, "title": "Tax-affecting EBIT", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "treatment-of-da-and-capex", "number": 9, "title": "Treatment of D&A and capex", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "treatment-of-working-capital-changes", "number": 10, "title": "Treatment of working capital changes", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "non-recurring-items-in-ufcf", "number": 11, "title": "Non-recurring items in UFCF", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "discount-rate-conceptual", "number": 12, "title": "The discount rate, conceptually", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "discounting-cash-flows-time-value", "number": 13, "title": "Discounting cash flows: time value mechanics", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "core-dcf-build",
+      "title": "Building the Core DCF",
+      "lessons": [
+        { "slug": "setting-up-the-dcf-tab", "number": 14, "title": "Setting up the DCF tab", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "linking-ufcf-from-3statement", "number": 15, "title": "Linking UFCF from the 3-statement model", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "stub-period-and-partial-year", "number": 16, "title": "Stub period and partial-year forecast", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "explicit-forecast-period-length", "number": 17, "title": "Explicit forecast period length", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "terminal-value-perpetuity-growth", "number": 18, "title": "Terminal value: perpetuity growth method", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "terminal-value-exit-multiple", "number": 19, "title": "Terminal value: exit multiple method", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "implied-perpetuity-growth-from-exit", "number": 20, "title": "Implied perpetuity growth from exit multiple", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "discounting-tv-to-present", "number": 21, "title": "Discounting terminal value to present", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "enterprise-value-aggregation", "number": 22, "title": "Aggregating to enterprise value", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "ev-to-equity-bridge", "number": 23, "title": "EV-to-equity bridge", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "share-count-implied-price", "number": 24, "title": "Share count and implied per-share price", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "apple-base-case-output", "number": 25, "title": "Apple base-case DCF output", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "presenting-output",
+      "title": "Presenting the DCF Output",
+      "lessons": [
+        { "slug": "valuation-summary-page-layout", "number": 26, "title": "Valuation summary page layout", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "sensitivity-tables-for-dcf", "number": 27, "title": "Sensitivity tables for DCF", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "football-field-construction", "number": 28, "title": "Football field construction", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "implied-multiples-cross-check", "number": 29, "title": "Implied multiples cross-check", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "presenting-to-an-ic", "number": 30, "title": "Presenting the output to an IC", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "mid-year-convention",
+      "title": "Mid-Year Convention",
+      "lessons": [
+        { "slug": "mid-year-convention-rationale", "number": 31, "title": "Mid-year convention rationale", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "mid-year-vs-end-of-year-math", "number": 32, "title": "Mid-year vs. end-of-year discounting math", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "mid-year-on-terminal-value", "number": 33, "title": "Applying mid-year to terminal value", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "when-not-to-use-mid-year", "number": 34, "title": "When not to use mid-year convention", "runtimeSeconds": 240, "type": "video" }
+      ]
+    },
+    {
+      "slug": "stock-options-convertibles",
+      "title": "Stock Options & Convertibles",
+      "lessons": [
+        { "slug": "treasury-stock-method-overview", "number": 35, "title": "Treasury stock method overview", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "tsm-on-options-and-rsus", "number": 36, "title": "TSM on options and RSUs", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "if-converted-method", "number": 37, "title": "If-converted method for convertibles", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "in-the-money-vs-otm-treatment", "number": 38, "title": "In-the-money vs. OTM treatment", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "diluted-share-count-impact", "number": 39, "title": "Diluted share count impact on price", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "modeling-future-dilution", "number": 40, "title": "Modeling future dilution", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "wacc",
+      "title": "WACC",
+      "lessons": [
+        { "slug": "wacc-conceptual-foundation", "number": 41, "title": "WACC conceptual foundation", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "cost-of-equity-capm", "number": 42, "title": "Cost of equity via CAPM", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "risk-free-rate-selection", "number": 43, "title": "Risk-free rate selection", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "equity-risk-premium-sourcing", "number": 44, "title": "Equity risk premium sourcing", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "levered-vs-unlevered-beta", "number": 45, "title": "Levered vs. unlevered beta", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "comparable-company-beta", "number": 46, "title": "Pulling beta from comparable companies", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "size-premium-and-other-adjustments", "number": 47, "title": "Size premium and other adjustments", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "after-tax-cost-of-debt", "number": 48, "title": "After-tax cost of debt", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "target-capital-structure", "number": 49, "title": "Target capital structure for weighting", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "apple-wacc-build", "number": 50, "title": "Apple WACC build", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "connect-3statement",
+      "title": "Connecting DCF to 3-Statement",
+      "lessons": [
+        { "slug": "feeding-3statement-into-dcf", "number": 51, "title": "Feeding the 3-statement model into the DCF", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "consistency-checks-across-models", "number": 52, "title": "Consistency checks across models", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "scenarios-and-toggling", "number": 53, "title": "Scenarios and toggling assumptions", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "tax-affecting-ebit-vs-net-income-path", "number": 54, "title": "Tax-affecting EBIT vs. net income path", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "common-linkage-bugs", "number": 55, "title": "Common linkage bugs", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "auditing-the-integrated-model", "number": 56, "title": "Auditing the integrated model", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "additional-considerations",
+      "title": "Additional Considerations",
+      "lessons": [
+        { "slug": "operating-leases-pre-asc-842", "number": 57, "title": "Operating leases pre- and post-ASC 842", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "minority-interest-treatment", "number": 58, "title": "Minority interest treatment", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "equity-investments-and-affiliates", "number": 59, "title": "Equity investments and affiliates", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "nols-and-tax-attributes", "number": 60, "title": "NOLs and tax attributes", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "negative-working-capital-businesses", "number": 61, "title": "Negative working capital businesses", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "private-company-valuation-tweaks", "number": 62, "title": "Private company valuation tweaks", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "dcf-appendix",
+      "title": "DCF Appendix",
+      "lessons": [
+        { "slug": "apv-vs-wacc-method", "number": 63, "title": "APV vs. WACC method", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "dividend-discount-model", "number": 64, "title": "Dividend discount model", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "two-stage-and-three-stage-dcfs", "number": 65, "title": "Two-stage and three-stage DCFs", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "industry-specific-dcf-tweaks", "number": 66, "title": "Industry-specific DCF tweaks", "runtimeSeconds": 360, "type": "video" }
+      ]
+    }
   ]
 }

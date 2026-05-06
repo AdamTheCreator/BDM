@@ -6,16 +6,153 @@
   "totalLessons": 82,
   "totalRuntimeMinutes": 629,
   "chapters": [
-    { "slug": "introduction", "title": "Introduction & Course Roadmap", "lessons": [] },
-    { "slug": "income-statement", "title": "Income Statement Forecast", "lessons": [] },
-    { "slug": "balance-sheet", "title": "Balance Sheet Build", "lessons": [] },
-    { "slug": "working-capital", "title": "Working Capital Schedule", "lessons": [] },
-    { "slug": "ppe-depreciation", "title": "PP&E and Depreciation Waterfall", "lessons": [] },
-    { "slug": "intangibles", "title": "Intangibles and Amortization", "lessons": [] },
-    { "slug": "other-ltassets-liabs", "title": "Other Long-Term Assets and Liabilities", "lessons": [] },
-    { "slug": "equity-schedule", "title": "Equity Schedule and Treasury Stock", "lessons": [] },
-    { "slug": "debt-revolver", "title": "Debt Schedule and Revolver Circularity", "lessons": [] },
-    { "slug": "cash-flow-statement", "title": "Cash Flow Statement Build", "lessons": [] },
-    { "slug": "eps-and-sensitivity", "title": "EPS, Sensitivities, and Final Audit", "lessons": [] }
+    {
+      "slug": "introduction",
+      "title": "Introduction & Course Roadmap",
+      "lessons": [
+        { "slug": "welcome-to-fsm", "number": 1, "title": "Welcome to financial statement modeling", "runtimeSeconds": 240, "type": "video" },
+        { "slug": "course-roadmap-and-prerequisites", "number": 2, "title": "Course roadmap and prerequisites", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "why-we-model-apple-10k", "number": 3, "title": "Why we model Apple's 10-K", "runtimeSeconds": 300, "type": "video" },
+        { "slug": "excel-workbook-setup", "number": 4, "title": "Setting up the Excel workbook", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "formatting-conventions-and-audit", "number": 5, "title": "Color-coding, formatting, and audit conventions", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "income-statement",
+      "title": "Income Statement Forecast",
+      "lessons": [
+        { "slug": "reading-historical-income-statement", "number": 6, "title": "Reading Apple's historical income statement", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "building-historical-is-in-excel", "number": 7, "title": "Building the historical IS in Excel", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "forecasting-revenue-drivers-vs-growth", "number": 8, "title": "Forecasting revenue: drivers vs. growth rates", "runtimeSeconds": 720, "type": "video" },
+        { "slug": "forecasting-cogs-and-gross-margin", "number": 9, "title": "Forecasting COGS and gross margin", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "forecasting-operating-expenses", "number": 10, "title": "Forecasting operating expenses", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "modeling-da-from-schedule", "number": 11, "title": "Modeling D&A from the schedule", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "interest-expense-placeholder", "number": 12, "title": "Modeling interest expense (placeholder)", "runtimeSeconds": 360, "type": "video" },
+        { "slug": "tax-rate-normalization", "number": 13, "title": "Tax rate normalization and effective rate", "runtimeSeconds": 540, "type": "video" }
+      ]
+    },
+    {
+      "slug": "balance-sheet",
+      "title": "Balance Sheet Build",
+      "lessons": [
+        { "slug": "balance-sheet-architecture", "number": 14, "title": "Balance sheet architecture and historical input", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "modeling-current-assets", "number": 15, "title": "Modeling current assets", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-long-term-assets", "number": 16, "title": "Modeling long-term assets", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-current-liabilities", "number": 17, "title": "Modeling current liabilities", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-long-term-liabilities", "number": 18, "title": "Modeling long-term liabilities", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-stockholders-equity", "number": 19, "title": "Modeling stockholders' equity", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "linking-is-to-bs-retained-earnings", "number": 20, "title": "Linking IS to BS retained earnings", "runtimeSeconds": 540, "type": "video" }
+      ]
+    },
+    {
+      "slug": "working-capital",
+      "title": "Working Capital Schedule",
+      "lessons": [
+        { "slug": "nwc-framework", "number": 21, "title": "Net working capital framework", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "ar-projections-via-dso", "number": 22, "title": "AR projections via DSO", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "inventory-projections-via-dio", "number": 23, "title": "Inventory projections via DIO", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "ap-projections-via-dpo", "number": 24, "title": "AP projections via DPO", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "other-current-assets-liabilities", "number": 25, "title": "Other current assets and liabilities", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "nwc-change-and-cash-flow-impact", "number": 26, "title": "NWC change and impact on cash flow", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "apple-working-capital-buildout", "number": 27, "title": "Apple's working capital build-out", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "auditing-working-capital-schedule", "number": 28, "title": "Auditing the working capital schedule", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "ppe-depreciation",
+      "title": "PP&E and Depreciation Waterfall",
+      "lessons": [
+        { "slug": "depreciation-waterfall-framework", "number": 29, "title": "The depreciation waterfall framework", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "existing-ppe-and-useful-life", "number": 30, "title": "Existing PP&E and remaining useful life", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "modeling-capex-assumptions", "number": 31, "title": "Modeling capex assumptions", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "new-asset-depreciation-conventions", "number": 32, "title": "New asset depreciation conventions", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "half-year-convention", "number": 33, "title": "Half-year convention and mid-year nuance", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "gaap-vs-tax-depreciation", "number": 34, "title": "GAAP vs. tax depreciation", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "asset-retirements-and-dispositions", "number": 35, "title": "Asset retirements and dispositions", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "capex-by-segment", "number": 36, "title": "Capex by segment for multi-segment models", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "apple-ppe-waterfall", "number": 37, "title": "Apple's PP&E waterfall", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "sensitivity-to-capex", "number": 38, "title": "Sensitivity to capex assumptions", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "intangibles",
+      "title": "Intangibles and Amortization",
+      "lessons": [
+        { "slug": "intangible-asset-categories", "number": 39, "title": "Intangible asset categories and recognition", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "amortization-framework", "number": 40, "title": "Amortization framework and useful lives", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "goodwill-origin-and-carry", "number": 41, "title": "Goodwill: where it comes from, how it's carried", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "impairment-testing-in-modeling", "number": 42, "title": "Impairment testing in modeling", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "forecasting-intangible-additions", "number": 43, "title": "Forecasting intangible additions", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "other-ltassets-liabs",
+      "title": "Other Long-Term Assets and Liabilities",
+      "lessons": [
+        { "slug": "other-long-term-assets", "number": 44, "title": "Other long-term assets", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "pension-obligations-in-models", "number": 45, "title": "Pension obligations in 3-statement models", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "opeb-postretirement-liabilities", "number": 46, "title": "OPEB and post-retirement liabilities", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "deferred-tax-assets-liabilities", "number": 47, "title": "Deferred tax assets and liabilities", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "lease-accounting-asc-842", "number": 48, "title": "Lease accounting under ASC 842", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "other-long-term-liabilities", "number": 49, "title": "Other long-term liabilities", "runtimeSeconds": 420, "type": "video" },
+        { "slug": "linking-other-lt-items-to-bs", "number": 50, "title": "Linking other LT items into the BS", "runtimeSeconds": 360, "type": "video" }
+      ]
+    },
+    {
+      "slug": "equity-schedule",
+      "title": "Equity Schedule and Treasury Stock",
+      "lessons": [
+        { "slug": "equity-rollforward-framework", "number": 51, "title": "Equity rollforward framework", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "common-stock-issuance-modeling", "number": 52, "title": "Common stock issuance modeling", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "treasury-stock-and-buybacks", "number": 53, "title": "Treasury stock and buybacks", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "dividend-policy-and-payout", "number": 54, "title": "Dividend policy and payout", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "stock-based-compensation-modeling", "number": 55, "title": "Stock-based compensation modeling", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "linking-equity-to-ni-and-oci", "number": 56, "title": "Linking equity to net income and OCI", "runtimeSeconds": 480, "type": "video" }
+      ]
+    },
+    {
+      "slug": "debt-revolver",
+      "title": "Debt Schedule and Revolver Circularity",
+      "lessons": [
+        { "slug": "debt-schedule-architecture", "number": 57, "title": "Debt schedule architecture", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "existing-debt-amortization", "number": 58, "title": "Existing debt amortization", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "maturity-wall-and-refinancing", "number": 59, "title": "Maturity wall and refinancing assumptions", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "new-debt-issuance-modeling", "number": 60, "title": "New debt issuance modeling", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "calculating-interest-expense", "number": 61, "title": "Calculating interest expense", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "revolver-role-in-plugging-cash", "number": 62, "title": "The revolver's role in plugging cash", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "iterative-calculation-mechanics", "number": 63, "title": "Iterative calculation mechanics in Excel", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "resolving-circular-references", "number": 64, "title": "Resolving circular references", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "minimum-cash-balance-revolver-triggers", "number": 65, "title": "Minimum cash balance and revolver triggers", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "mandatory-repayments-excess-cash", "number": 66, "title": "Mandatory repayments and excess cash", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "sensitivity-to-interest-rates", "number": 67, "title": "Sensitivity to interest rate movements", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "auditing-the-debt-schedule", "number": 68, "title": "Auditing the debt schedule", "runtimeSeconds": 420, "type": "video" }
+      ]
+    },
+    {
+      "slug": "cash-flow-statement",
+      "title": "Cash Flow Statement Build",
+      "lessons": [
+        { "slug": "cfs-architecture", "number": 69, "title": "Cash flow statement architecture", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "building-cash-from-operations", "number": 70, "title": "Building cash from operations", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "building-cash-from-investing", "number": 71, "title": "Building cash from investing", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "building-cash-from-financing", "number": 72, "title": "Building cash from financing", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "net-change-in-cash-bs-reconciliation", "number": 73, "title": "Net change in cash and BS reconciliation", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "common-errors-in-cfs-construction", "number": 74, "title": "Common errors in CFS construction", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "free-cash-flow-definitions", "number": 75, "title": "Free cash flow definitions", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "apple-full-cfs-build", "number": 76, "title": "Apple's full CFS build", "runtimeSeconds": 600, "type": "video" }
+      ]
+    },
+    {
+      "slug": "eps-and-sensitivity",
+      "title": "EPS, Sensitivities, and Final Audit",
+      "lessons": [
+        { "slug": "basic-vs-diluted-share-count", "number": 77, "title": "Basic vs. diluted share count", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "modeling-eps-waterfall", "number": 78, "title": "Modeling EPS waterfall", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "setting-up-sensitivity-tables", "number": 79, "title": "Setting up sensitivity tables", "runtimeSeconds": 540, "type": "video" },
+        { "slug": "two-way-sensitivities-football-field", "number": 80, "title": "Two-way sensitivities and football fields", "runtimeSeconds": 600, "type": "video" },
+        { "slug": "auditors-checklist-for-completed-models", "number": 81, "title": "Auditor's checklist for completed models", "runtimeSeconds": 480, "type": "video" },
+        { "slug": "final-review-and-presentation-tips", "number": 82, "title": "Final review and presentation tips", "runtimeSeconds": 360, "type": "video" }
+      ]
+    }
   ]
 }
