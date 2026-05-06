@@ -1,0 +1,13 @@
+{
+  "slug": "vista",
+  "name": "Vista Equity Partners",
+  "website": "https://vistaequitypartners.com",
+  "hq": "Austin, TX",
+  "overview": "Among the largest software-focused private equity firms globally. Multi-strategy with separate platforms for large-cap buyouts (Flagship), middle-market (Foundation), and growth (Endeavor / Perennial). Known for the 'Vista Standard Operating Procedures' playbook and a centralized value-creation function.",
+  "sectorFocus": ["enterprise software", "vertical software", "tech-enabled services"],
+  "notable": [
+    "One of the most prolific software acquirers across the 2010s and 2020s",
+    "Operates a structured pipeline / business-development function at scale"
+  ],
+  "bdNotes": "BD/origination is a formal career track at Vista with dedicated Associates and Heads of Business Development per investment platform."
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "berkshire",
+  "name": "Berkshire Partners",
+  "website": "https://berkshirepartners.com",
+  "hq": "Boston, MA",
+  "overview": "Multi-sector middle-market private equity firm with meaningful tech-enabled services and software exposure alongside consumer, business services, and communications. Known for long-hold orientation and partnership-with-founders posture.",
+  "sectorFocus": ["tech-enabled services", "software", "consumer", "business services", "communications"],
+  "notable": [],
+  "bdNotes": "Less of a pure-tech shop than Vista or Thoma Bravo; pitch should lead with thesis + sector breadth, not just SaaS metrics."
+}
